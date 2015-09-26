@@ -1,10 +1,130 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="profile.css" type="text/css" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="profile.js"></script>
+<title>Profile</title>
 </head>
 <body>
+
+
+
+	<!-- Main navigation bar -->
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" style="color: midnightblue; font-size: 30px"
+					href="#"><b>EasyWallet</b></a>
+			</div>
+			<!-- navbar header -->
+
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a style="color: blue; font-size: 18px"
+						href="#">Profile</a></li>
+					<li><a style="color: blue; font-size: 18px" href="#">Activities</a></li>
+					<li><a style="color: blue; font-size: 18px" href="#">Transactions</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a style="color: blue; font-size: 18px" href="#"><span
+							class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+				</ul>
+			</div>
+			<!-- collapse navbar-collapse -->
+		</div>
+		<!-- container -->
+	</nav>
+	<!-- navigation bar -->
+
+	<!--End of main navigation bar -->
+
+
+	<!-- Main jumbotron -->
+
+	<div class="container">
+		<div class="jumbotron">
+			<table>
+				<tr>
+					<td><img src="profile.png" class="img-circle" width="155"
+						height="155"></img></td>
+					<td><h2>Welcome Back</h2>
+						<h1>User</h1></td>
+				</tr>
+			</table>
+
+		</div>
+		<!-- jumbotron  -->
+	</div>
+	<!-- container  -->
+
+	<!-- End of jumbotron -->
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="container-container-walletBalance">
+					<h3>Your wallet details: </h3>
+					<div class="form-inline" style="padding-top:15px;padding-left:10px;padding-right:10px;">
+							<label for="name">Wallet Balance:</label>
+							 <input type="text" style="padding-right:5px;" class="form-control" id="email" disabled="disabled">
+						</div>
+					<p>
+						Add money to your wallet <a href="">click here</a>
+					</p>
+					<p>
+						To see your transactions <a href="">click here</a>
+					</p>
+				</div>
+				<!-- container-container-body -->
+
+
+				<div class="container-container-addCard">
+					<h3>Add a card to your wallet:</h3>
+					<form class="form" role="form">
+						<h4 style="color: blue">Card Details:</h4>
+						<div class="form-group">
+							<label for="name">Card Name</label> <input type="text"
+								class="form-control" id="email" required>
+						</div>
+						<div class="form-group">
+							<label for="number">Card Number</label> <input type="number"
+								class="form-control" id="email" required>
+						</div>
+
+						<div class="form-group">
+							<label for="password">Pin</label> <input type="password"
+								class="form-control" id="pwd">
+						</div>
+
+						<button type="submit" onclick="form1(0)" class="btn btn-default">submit</button>
+					</form>
+				</div>
+				<!-- container-container-body1 -->
+			</div>
+			<!-- column -->
+		</div>
+		<!-- row -->
+	</div>
+	<!-- container -->
+
+
+
 
 </body>
 </html>

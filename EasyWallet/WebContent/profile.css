@@ -1,0 +1,86 @@
+
+
+.jumbotron{
+    position: relative;
+    background-color:deepskyblue;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	margin-top:70px;
+}
+
+.jumbotron td{
+	width:220px;
+}
+
+
+.container-container-walletBalance{
+	background-color: white;	
+	background-image: url('bg.png');
+	height:auto;
+	border-radius:5px;
+	margin-top:-25px;
+	padding-bottom:20px;
+}
+
+.container-container-walletBalance h3{
+	color:deepskyblue;
+	padding-left:10px;
+	padding-top:10px;
+	text-decoration:underline;
+}
+.container-container-walletBalance p{
+	font-family:Arial;
+	font-size:17px;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+
+.container-container-addCard{
+	background-color: white;
+	background-image: url('bg.png');
+	height:auto;
+	padding-bottom:20px;
+	border-radius:5px;
+	
+}
+
+.container-container-addCard form{
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:30px;
+}
+
+.container-container-addCard h3{
+	color:deepskyblue;
+	padding-left:10px;
+	padding-top:10px;
+	text-decoration:underline;
+}
+.container-container-addCard p{
+	font-family:Arial;
+	font-size:17px;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+
+
+.jumbotron-jumbotron-footer{
+    position: relative;
+    background-color:silver;
+	border-radius:5px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	margin-top:70px;
+	padding-bottom:10px;
+}
+
+.jumbotron-jumbotron-footer p{
+	padding-left:300px;
+	padding-top:40px;
+}
