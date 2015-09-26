@@ -79,11 +79,13 @@
 		<div class="row">
 			<div class="col-md-3">
 				<div class="container-container-walletBalance">
-					<h3>Your wallet details: </h3>
-					<div class="form-inline" style="padding-top:15px;padding-left:10px;padding-right:10px;">
-							<label for="name">Wallet Balance:</label>
-							 <input type="text" style="padding-right:5px;" class="form-control" id="email" disabled="disabled">
-						</div>
+					<h3>Your wallet details:</h3>
+					<div class="form-inline"
+						style="padding-top: 15px; padding-left: 10px; padding-right: 10px;">
+						<label for="name">Wallet Balance:</label> <input type="text"
+							style="padding-right: 5px;" class="form-control" id="email"
+							disabled="disabled">
+					</div>
 					<p>
 						Add money to your wallet <a href="">click here</a>
 					</p>
@@ -116,6 +118,99 @@
 					</form>
 				</div>
 				<!-- container-container-body1 -->
+			</div>
+			<!-- column -->
+
+
+
+			<div class="col-md-9">
+				<div class="container-container-navigationBar">
+					<nav class="navbar navbar-default">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle"
+									data-toggle="collapse" data-target="#myNavbar">
+									<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+										class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="collapse navbar-collapse" id="myNavbar">
+								<ul class="nav navbar-nav">
+									<li class="active"><a style="color: blue; font-size: 16px"
+										data-toggle="tab" href="#info">Personal-Info</a></li>
+									<li><a style="color: blue; font-size: 16px"
+										data-toggle="tab" onclick="form1(0)" href="#address">Address</a></li>
+									<li><a style="color: blue; font-size: 16px"
+										data-toggle="tab" href="#password">Change Password</a></li>
+									<li><a style="color: blue; font-size: 16px"
+										data-toggle="tab" href="#merchants">Merchants</a></li>
+								</ul>
+							</div>
+							<!-- collapse navbar-collapse -->
+						</div>
+						<!-- container -->
+					</nav>
+				</div>
+				<!-- container-container-navigationBar -->
+
+				<div class="tab-content">
+					<div id="info" class="tab-pane fade in active">
+						<div class="container-container-info">
+							<h3>Your Info:</h3>
+							<a class="link pull-right" onclick="form(1)" href="#"><b>Edit
+									your Info</b></a>
+							<table>
+								<tr>
+									<td><p>
+											<b>FullName:</b>
+										</p></td>
+									<td><p>
+											<b>Email:</b>
+										</p></td>
+									<td><p>
+											<b>Mobile:</b>
+										</p></td>
+								</tr>
+								<tr>
+									<td><input type="text" class="form-control" id="fullname"
+										disabled="disabled"></td>
+									<td><input type="text" class="form-control" id="fullname"
+										disabled="disabled"></td>
+									<td><input type="text" class="form-control" id="fullname"
+										disabled="disabled"></td>
+								</tr>
+							</table>
+						</div>
+						<!-- container-container-info -->
+
+
+						<div class="container-container-edit-info" id="editInfo">
+							<a class="link pull-right" onclick="form(0)" href="#"><b>Cancel</b></a>
+							<form class="form" role="form">
+								<h3>Update your details</h3>
+								<div class="form-group">
+									<label for="fullname">FullName:</label> <input type="text"
+										class="form-control" id="email" required>
+								</div>
+								<div class="form-group">
+									<label for="email">Email:</label> <input type="email"
+										class="form-control" id="email" required>
+								</div>
+
+								<div class="form-group">
+									<label for="mobile">Mobile:</label> <input type="number"
+										class="form-control" id="pwd">
+								</div>
+
+								<button type="submit" onclick="form(0)" class="btn btn-default">Update</button>
+							</form>
+						</div> <!-- container-container-edit-info -->
+
+
+					</div>
+					<!-- tab-pane fade in active -->
+				</div>
+				<!-- tab-content -->
 			</div>
 			<!-- column -->
 		</div>

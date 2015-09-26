@@ -68,6 +68,74 @@
 
 
 
+.container-container-info h3,.container-container-address h3,.container-container-password h3,.container-container-merchants h3{
+	color:deepskyblue;
+	padding-left:10px;
+	padding-top:10px;
+
+}
+.container-container-info p,.container-container-address p,.container-container-password p,.container-container-merchants p{
+
+	font-family:Arial;
+	font-size:17px;
+	padding-left:10px;
+	padding-top:10px;
+	
+}
+
+.container-container-info,.container-container-address,.container-container-password ,.container-container-merchants {
+	background-color: White;
+	background-image: url('bg.png');
+	height:auto;
+	padding-bottom:50px;
+	border-radius:5px;
+	margin-top:-10px;
+	
+}
+.container-container-info a,.container-container-address a{
+	padding-right:10px;
+	padding-bottom:20px;
+	
+}
+
+.container-container-info td{
+	padding-top:0px;
+	padding-bottom:-30px;
+	padding-left:20px;
+	width:700px;
+	
+}
+.container-container-info tr{
+	padding-top:0px;
+	padding-left:20px;
+	width:700px;
+	
+}
+
+.container-container-edit-info{
+	background-color: white;	
+	background-image: url('bg.png');
+	height:auto;
+	border-radius:5px;
+	margin-top:15px;
+	padding-bottom:10px;
+	
+}
+.container-container-edit-info form{
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:300px;
+
+}
+
+.container-container-edit-address a,.container-container-edit-info a{
+	padding-right:25px;
+	padding-top:20px;
+	
+}
+
+
+
 .jumbotron-jumbotron-footer{
     position: relative;
     background-color:silver;
