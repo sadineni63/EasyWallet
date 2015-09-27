@@ -134,6 +134,29 @@
 	
 }
 
+.container-container-address form{
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:300px;
+
+}
+
+.container-container-edit-address{
+	background-color: white;	
+	background-image: url('bg.png');
+	height:auto;
+	border-radius:5px;
+	margin-top:15px;
+	padding-bottom:20px;
+}
+
+.container-container-edit-address form{
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:300px;
+
+}
+
 
 
 .jumbotron-jumbotron-footer{

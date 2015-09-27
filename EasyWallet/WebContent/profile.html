@@ -204,11 +204,43 @@
 
 								<button type="submit" onclick="form(0)" class="btn btn-default">Update</button>
 							</form>
-						</div> <!-- container-container-edit-info -->
+						</div>
+						<!-- container-container-edit-info -->
 
 
 					</div>
 					<!-- tab-pane fade in active -->
+
+					<div id="address" class="tab-pane fade">
+						<div class="container-container-address">
+							<h3>Your Adress:</h3>
+							<a class="link pull-right" onclick="form1(1)" href="#"><b>Edit
+									your address</b></a>
+							<form class="form" role="form">
+								<div class="form-group">
+									<label for="comment">Address:</label>
+									<textarea class="form-control"
+										style="height: 150px; width: 500px;" rows="5" id="addressarea"
+										disabled="disabled"></textarea>
+								</div>
+							</form>
+						</div>
+
+						<div class="container-container-edit-address" id="editAddress">
+							<a class="link pull-right" onclick="form1(0)" href="#"><b>Cancel</b></a>
+							<form class="form" role="form">
+								<h3>Update your address</h3>
+								<label for="comment">Address:</label>
+								<textarea class="form-control"
+									style="height: 150px; width: 500px;" rows="5" id="addressarea"></textarea>
+								<p></p>
+								<button type="submit" onclick="form1(0)" class="btn btn-default">Update</button>
+							</form>
+						</div>
+					</div>
+
+
+
 				</div>
 				<!-- tab-content -->
 			</div>
