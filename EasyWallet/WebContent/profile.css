@@ -28,7 +28,6 @@
 	color:deepskyblue;
 	padding-left:10px;
 	padding-top:10px;
-	text-decoration:underline;
 }
 .container-container-walletBalance p{
 	font-family:Arial;
@@ -57,7 +56,6 @@
 	color:deepskyblue;
 	padding-left:10px;
 	padding-top:10px;
-	text-decoration:underline;
 }
 .container-container-addCard p{
 	font-family:Arial;
@@ -151,6 +149,15 @@
 }
 
 .container-container-edit-address form{
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:300px;
+
+}
+
+
+
+.container-container-edit-password form{
 	padding-top:15px;
 	padding-left:15px;
 	padding-right:300px;
