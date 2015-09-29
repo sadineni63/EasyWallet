@@ -1,5 +1,9 @@
 
 
+body {
+	background: url('bg2.jpg') no-repeat;
+	background-size:200%;
+}
 .jumbotron{
     position: relative;
     background-color:deepskyblue;
@@ -162,6 +166,17 @@
 	padding-left:15px;
 	padding-right:300px;
 
+}
+
+
+.container-container-merchants button{
+	color:blue;
+	float:right;
+}
+
+.container-container-merchants td{
+	border-bottom:1px solid black;
+	border-bottom-color:black;
 }
 
 
