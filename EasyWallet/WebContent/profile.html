@@ -147,7 +147,7 @@
 								class="form-control" id="pwd">
 						</div>
 
-						<button type="submit" onclick="form1(0)" class="btn btn-default">submit</button>
+						<button type="submit" onclick="form1(0)" style="color:blue;" class="btn btn-default">submit</button>
 					</form>
 				</div>
 				<!-- container-container-body1 -->
@@ -207,9 +207,9 @@
 								<tr>
 									<td><input type="text" class="form-control" id="fullname"
 										disabled="disabled"></td>
-									<td><input type="text" class="form-control" id="fullname"
+									<td><input type="text" class="form-control" id="email"
 										disabled="disabled"></td>
-									<td><input type="text" class="form-control" id="fullname"
+									<td><input type="text" class="form-control" id="mobile"
 										disabled="disabled"></td>
 								</tr>
 							</table>
@@ -219,23 +219,23 @@
 
 						<div class="container-container-edit-info" id="editInfo">
 							<a class="link pull-right" onclick="form(0)" href="#"><b>Cancel</b></a>
-							<form class="form" role="form">
+							<form data-toggle="validator" class="form" role="form">
 								<h3>Update your details</h3>
 								<div class="form-group">
 									<label for="fullname">FullName:</label> <input type="text"
-										class="form-control" id="email" required>
+										class="form-control" id="fullname" placeholder="FullName" required>
 								</div>
 								<div class="form-group">
 									<label for="email">Email:</label> <input type="email"
-										class="form-control" id="email" required>
+										class="form-control" id="email" placeholder="Email Id" required>
 								</div>
 
 								<div class="form-group">
 									<label for="mobile">Mobile:</label> <input type="number"
-										class="form-control" id="pwd">
+										class="form-control" id="mobile" placeholder="mobile" required>
 								</div>
 
-								<button type="submit" onclick="form(0)" class="btn btn-default">Update</button>
+								<button type="submit" onclick="form(0)" style="color:blue;" class="btn btn-default">Update</button>
 							</form>
 						</div>
 						<!-- container-container-edit-info -->
@@ -261,13 +261,13 @@
 
 						<div class="container-container-edit-address" id="editAddress">
 							<a class="link pull-right" onclick="form1(0)" href="#"><b>Cancel</b></a>
-							<form class="form" role="form">
+							<form data-toggle="validator" class="form" role="form">
 								<h3>Update your address</h3>
 								<label for="comment">Address:</label>
 								<textarea class="form-control"
-									style="height: 150px; width: 500px;" rows="5" id="addressarea"></textarea>
+									style="height: 150px; width: 500px;" rows="5" id="addressarea" required></textarea>
 								<p></p>
-								<button type="submit" onclick="form1(0)" class="btn btn-default">Update</button>
+								<button type="submit" onclick="form1(0)" style="color:blue;" class="btn btn-default">Update</button>
 							</form>
 						</div> <!-- container-container-edit-address -->
 					</div>
@@ -277,23 +277,23 @@
 					<div id="password" class="tab-pane fade">
 						<div class="container-container-password">
 							<div class="container-container-edit-password" id="editpassword">
-								<form class="form" role="form">
+								<form data-toggle="validator" class="form" role="form">
 									<h3>Change Password</h3>
 									<div class="form-group">
 										<label for="oldpassword">Old Password</label> <input
-											type="password" class="form-control" id="email" required>
+											type="password" class="form-control" id="email" placeholder="oldPassword" required>
 									</div>
 									<div class="form-group">
 										<label for="password">New Password</label> <input
-											type="password" class="form-control" id="email" required>
+											type="password" class="form-control" placeholder="New Password" id="email" required>
 									</div>
 
 									<div class="form-group">
 										<label for="password">Re-type Password</label> <input
-											type="password" class="form-control" id="pwd">
+											type="password" class="form-control" placeholder="Re type Password" id="pwd">
 									</div>
 
-									<button type="submit"
+									<button type="submit" style="color:blue;"
 										class="btn btn-default">Update</button>
 								</form>
 							</div>
@@ -332,7 +332,7 @@
 								
 																<tr>
 									<td><p>Flipkart</p></td>
-									<td><button type="button"
+									<td><button type="button" style="color:blue;"
 											class="btn btn-md pull-right">Remove</button></td>
 								</tr>
 							</table>
