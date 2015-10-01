@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Easy Wallet</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
+	<link rel="stylesheet" type="text/css" href="CSS/login.css">
+</head>
+<body>
+<div class="wrapper">
+		<div class="banner">
+				<div class="header">
+			<div class="headerLeft"><img src="images/logo1.jpg" /></div>
+			<div class="headerRight"><img src="images/Call.png"/></div>
+		</div>		
+		<div class="bimg">
+			<img src="images/easy wallet.jpg">
+		</div>	
+			<div class ="xx">			
+					<div class="container" style="padding:20px;">
+  
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#login">Log In here</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 style="color:red;"><span class="glyphicon glyphicon-lock"></span> Login</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="password" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+            <button type="button" onclick="location.href='introductionPage.html'" class="btn btn-info btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <p>Not a member? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#register">Sign Up</a></p>
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+					<div class="container">
+  
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#register">Register Here</button>
+
+  <!-- Modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="register" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 style="color:red;"><span class="glyphicon glyphicon-lock"></span> SignUp</h4>
+        </div>
+        <div class="modal-body">
+          <form data-toggle="validator" role="form">
+            <div class="form-group">
+              <label for="username"><span class="glyphicon glyphicon-user"></span> Full Name:</label>
+              <input type="text" class="form-control" id="username" placeholder="Enter Full name" required>
+            </div>
+      
+            <div class="form-group">
+              <label for="email"><span class="glyphicon glyphicon-envelope"></span> Email:</label>
+              <input type="text" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+              <label for="mobile"><span class="glyphicon glyphicon-phone"></span> Mobile:</label>
+              <input type="text" class="form-control" id="mobile" placeholder="Enter mobile number" required>
+            </div>
+      <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span>Password:</label>
+              <input type="password" class="form-control" id="psw" placeholder="Enter password" required>
+            </div>
+            <div class="form-group">
+              <label for="rpsw"><span class="glyphicon glyphicon-eye-open"></span>Retype Password:</label>
+              <input type="password" class="form-control" id="rpsw" placeholder="Re-enter password" required>
+            </div>
+            <div class="form-group">
+              <label for="coupon"><span class="glyphicon glyphicon-edit"></span> Coupon No:</label>
+              <input type="text" class="form-control" id="coupon" placeholder="Enter coupon number">
+            </div>
+            <button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> SignUp</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <p>Already a member? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#login">Login</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+</div>								
+			
+</div>
+</body>

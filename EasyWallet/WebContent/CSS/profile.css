@@ -1,7 +1,7 @@
 
 
 body {
-	background: url('bg2.jpg') no-repeat;
+	background: url('../images/bg2.jpg') no-repeat;
 	background-size:200%;
 }
 .jumbotron{
@@ -21,7 +21,7 @@ body {
 
 .container-container-walletBalance{
 	background-color: white;	
-	background-image: url('bg.png');
+	background-image: url('../images/bg.png');
 	height:auto;
 	border-radius:5px;
 	margin-top:-25px;
@@ -43,7 +43,7 @@ body {
 
 .container-container-addCard{
 	background-color: white;
-	background-image: url('bg.png');
+	background-image: url('../images/bg.png');
 	height:auto;
 	padding-bottom:20px;
 	border-radius:5px;
@@ -87,7 +87,7 @@ body {
 
 .container-container-info,.container-container-address,.container-container-password ,.container-container-merchants {
 	background-color: White;
-	background-image: url('bg.png');
+	background-image: url('../images/bg.png');
 	height:auto;
 	padding-bottom:50px;
 	border-radius:5px;
@@ -116,7 +116,7 @@ body {
 
 .container-container-edit-info{
 	background-color: white;	
-	background-image: url('bg.png');
+	background-image: url('../images/bg.png');
 	height:auto;
 	border-radius:5px;
 	margin-top:15px;
@@ -145,7 +145,7 @@ body {
 
 .container-container-edit-address{
 	background-color: white;	
-	background-image: url('bg.png');
+	background-image: url('../images/bg.png');
 	height:auto;
 	border-radius:5px;
 	margin-top:15px;
