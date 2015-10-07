@@ -1,6 +1,6 @@
 body {
-	background: url('../images/bg2.jpg') no-repeat;
-	background-size:200%;
+	background: url(../images/background2.jpg) no-repeat;
+	height: 650px;
 }
 
 .jumbotron {
@@ -18,7 +18,7 @@ body {
 	background: url('../images/bg.png');
 	height: 200px;
 	border-radius: 5px;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .container-container-body h3 {
@@ -38,7 +38,7 @@ body {
 .container-container-body1 {
 	background-color: white;
 	background: url('../images/bg.png');
-	height: auto;
+	height: 200px;
 	border-radius: 5px;
 	margin-top: 30px;
 }
@@ -65,51 +65,19 @@ body {
 	margin-top: 30px;
 }
 
-.container-container-body2 h3, .container-container-body3 h3,
-	.container-container-receiveMoney h3 {
+.container-container-body2 h3 {
 	color: deepskyblue;
 	padding-left: 10px;
 	padding-top: 10px;
 	text-decoration: underline;
 }
 
-.container-container-body2 p, .container-container-body3 p,
-	.container-container-receiveMoney p {
+.container-container-body2 p {
 	font-family: Arial;
 	font-size: 17px;
 	padding-left: 10px;
 	padding-top: 10px;
 }
-
-.container-container-body3 {
-	background-color: white;
-	background: url('../images/bg.png');
-	height: auto;
-	padding-bottom: 20px;
-	border-radius: 5px;
-	margin-top: 30px;
-}
-
-.container-container-receiveMoney {
-	background-color: white;
-	background: url('../images/bg.png');
-	height: 220px;
-	padding-bottom: 20px;
-	border-radius: 5px;
-	margin-top: 30px;
-}
-
-.scrollable-menu {
-    height: auto;
-    max-height: 200px;
-    overflow-x: hidden;
-}
-
-.merchants{
-	margin-left:180px;	
-	margin-top:-58px;
-}
-
 
 .jumbotron-jumbotron-footer {
 	position: relative;
@@ -124,7 +92,7 @@ body {
 }
 
 .jumbotron-jumbotron-footer p {
-	padding-left: 30%;
+	padding-left: 300px;
 	padding-top: 30px;
 }
 
