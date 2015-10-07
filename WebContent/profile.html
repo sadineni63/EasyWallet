@@ -37,7 +37,8 @@
 				<ul class="nav navbar-nav">
 					<li class="active"><a style="color: blue; font-size: 18px"
 						href="profile.html">Profile</a></li>
-					<li><a style="color: blue; font-size: 18px" href="activity.html">Activities</a></li>
+					<li><a style="color: blue; font-size: 18px"
+						href="activity.html">Activities</a></li>
 					<li><a style="color: blue; font-size: 18px" href="#">Transactions</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
@@ -60,7 +61,9 @@
 		<div class="jumbotron">
 			<table>
 				<tr>
-					<td><a href="#uploadImage"><img src="images/profile.png" class="img-circle img-responsive" data-toggle="modal" data-target="#uploadImage" width="155" height="155"></img></a></td>
+					<td><a href="#uploadImage"><img src="images/profile.png"
+							class="img-circle img-responsive" data-toggle="modal"
+							data-target="#uploadImage" width="155" height="155"></img></a></td>
 					<td><h2>Welcome Back</h2>
 						<h1>User</h1></td>
 				</tr>
@@ -69,39 +72,47 @@
 		</div>
 		<!-- jumbotron  -->
 		<!-- Modal -->
-  <div class="modal fade" id="uploadImage" role="dialog">
-    <div class="modal-dialog">
+		<div class="modal fade" id="uploadImage" role="dialog">
+			<div class="modal-dialog">
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 style="color:red;"><span class="glyphicon glyphicon-lock"></span> Upload Image:</h4>
-        </div>
-        <div class="modal-body">
-        
-        
-        
-        
-        <div class="fileinput fileinput-new" data-provides="fileinput">
-  <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 200px; height: 150px;"></div>
-  <div>
-    <span class="btn btn-default btn-file"><input type="file" name="..."></span>
-    <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
-  </div>
-</div>
-        
-        
-        
-        
-        
-          <form role="form">
-            <button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span>Upload</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 style="color: red;">
+							<span class="glyphicon glyphicon-image"></span> Upload Image:
+						</h4>
+					</div>
+					<div class="modal-body">
+
+
+
+
+						<div class="fileinput fileinput-new" data-provides="fileinput">
+							<div class="fileinput-preview thumbnail" data-trigger="fileinput"
+								style="width: 200px; height: 150px;"></div>
+							<div>
+								<span class="btn btn-default btn-file"><input type="file"
+									name="..."></span> <a href="#"
+									class="btn btn-default fileinput-exists"
+									data-dismiss="fileinput">Remove</a>
+							</div>
+						</div>
+
+
+
+
+
+						<form role="form">
+							<button type="submit"
+								class="btn btn-default btn-success btn-block">
+								<span class="glyphicon glyphicon-off"></span>Upload
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- container  -->
 
@@ -116,14 +127,15 @@
 					<div class="form-inline"
 						style="padding-top: 15px; padding-left: 10px; padding-right: 10px;">
 						<label for="name">Wallet Balance:</label> <input type="text"
-							style="padding-right: 5px;" class="form-control" id="email"
+							style="padding-right: 1%; padding-left:5%;" class="form-control" id="balance"
 							disabled="disabled">
 					</div>
 					<p>
-						Add money to your wallet <a href="">click here</a>
+						Add money to your wallet <a href="activity.html">click here</a>
 					</p>
 					<p>
-						To see your transactions <a href="">click here</a>
+						To see your transactions <a href="transactions.html">click
+							here</a>
 					</p>
 				</div>
 				<!-- container-container-body -->
@@ -135,19 +147,22 @@
 						<h4 style="color: blue">Card Details:</h4>
 						<div class="form-group">
 							<label for="name">Card Name</label> <input type="text"
-								class="form-control" id="email" required>
+								class="form-control" id="cardname" placeholder="Card Name"
+								required>
 						</div>
 						<div class="form-group">
 							<label for="number">Card Number</label> <input type="number"
-								class="form-control" id="email" required>
+								class="form-control" id="cardnumber" placeholder="Card Number"
+								required>
 						</div>
 
 						<div class="form-group">
 							<label for="password">Pin</label> <input type="password"
-								class="form-control" id="pwd">
+								class="form-control" id="pin" placeholder="pin" required>
 						</div>
 
-						<button type="submit" onclick="form1(0)" style="color:blue;" class="btn btn-default">submit</button>
+						<button type="submit" onclick="form1(0)" style="color: blue;"
+							class="btn btn-default">submit</button>
 					</form>
 				</div>
 				<!-- container-container-body1 -->
@@ -162,12 +177,12 @@
 						<div class="container">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle"
-									data-toggle="collapse" data-target="#myNavbar">
+									data-toggle="collapse" data-target="#bodyNavbar">
 									<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 										class="icon-bar"></span>
 								</button>
 							</div>
-							<div class="collapse navbar-collapse" id="myNavbar">
+							<div class="collapse navbar-collapse" id="bodyNavbar">
 								<ul class="nav navbar-nav">
 									<li class="active"><a style="color: blue; font-size: 16px"
 										data-toggle="tab" href="#info">Personal-Info</a></li>
@@ -194,13 +209,13 @@
 									your Info</b></a>
 							<table>
 								<tr>
-									<td><p>
+									<td id="fullname"><p>
 											<b>FullName:</b>
 										</p></td>
-									<td><p>
+									<td id="email"><p>
 											<b>Email:</b>
 										</p></td>
-									<td><p>
+									<td id="mobile"><p>
 											<b>Mobile:</b>
 										</p></td>
 								</tr>
@@ -223,11 +238,13 @@
 								<h3>Update your details</h3>
 								<div class="form-group">
 									<label for="fullname">FullName:</label> <input type="text"
-										class="form-control" id="fullname" placeholder="FullName" required>
+										class="form-control" id="fullname" placeholder="FullName"
+										required>
 								</div>
 								<div class="form-group">
 									<label for="email">Email:</label> <input type="email"
-										class="form-control" id="email" placeholder="Email Id" required>
+										class="form-control" id="email" placeholder="Email Id"
+										required>
 								</div>
 
 								<div class="form-group">
@@ -235,7 +252,8 @@
 										class="form-control" id="mobile" placeholder="mobile" required>
 								</div>
 
-								<button type="submit" onclick="form(0)" style="color:blue;" class="btn btn-default">Update</button>
+								<button type="submit" onclick="form(0)" style="color: blue;"
+									class="btn btn-default">Update</button>
 							</form>
 						</div>
 						<!-- container-container-edit-info -->
@@ -257,7 +275,8 @@
 										disabled="disabled"></textarea>
 								</div>
 							</form>
-						</div> <!-- container-container-address -->
+						</div>
+						<!-- container-container-address -->
 
 						<div class="container-container-edit-address" id="editAddress">
 							<a class="link pull-right" onclick="form1(0)" href="#"><b>Cancel</b></a>
@@ -265,11 +284,14 @@
 								<h3>Update your address</h3>
 								<label for="comment">Address:</label>
 								<textarea class="form-control"
-									style="height: 150px; width: 500px;" rows="5" id="addressarea" required></textarea>
+									style="height: 150px; width: 500px;" rows="5" id="addressarea"
+									required></textarea>
 								<p></p>
-								<button type="submit" onclick="form1(0)" style="color:blue;" class="btn btn-default">Update</button>
+								<button type="submit" onclick="form1(0)" style="color: blue;"
+									class="btn btn-default">Update</button>
 							</form>
-						</div> <!-- container-container-edit-address -->
+						</div>
+						<!-- container-container-edit-address -->
 					</div>
 
 
@@ -281,19 +303,22 @@
 									<h3>Change Password</h3>
 									<div class="form-group">
 										<label for="oldpassword">Old Password</label> <input
-											type="password" class="form-control" id="email" placeholder="oldPassword" required>
+											type="password" class="form-control" id="email"
+											placeholder="oldPassword" required>
 									</div>
 									<div class="form-group">
 										<label for="password">New Password</label> <input
-											type="password" class="form-control" placeholder="New Password" id="email" required>
+											type="password" class="form-control"
+											placeholder="New Password" id="email" required>
 									</div>
 
 									<div class="form-group">
 										<label for="password">Re-type Password</label> <input
-											type="password" class="form-control" placeholder="Re type Password" id="pwd">
+											type="password" class="form-control"
+											placeholder="Re type Password" id="pwd">
 									</div>
 
-									<button type="submit" style="color:blue;"
+									<button type="submit" style="color: blue;"
 										class="btn btn-default">Update</button>
 								</form>
 							</div>
@@ -305,34 +330,31 @@
 					<div id="merchants" class="tab-pane fade">
 						<div class="container-container-merchants">
 							<h3>Merchants:</h3>
-							<table style="width:800px;">
+							<table style="width: 800px;">
 								<tr>
 									<td><p>Uber</p></td>
-									<td><button type="button" style="float:right;"
+									<td><button type="button" style="float: right;"
 											class="btn btn-md pull-right">Remove</button></td>
 								</tr>
 
 								<tr>
 									<td><p>Airtel</p></td>
-									<td><button type="button"
-											class="btn btn-md pull-right">Remove</button></td>
+									<td><button type="button" class="btn btn-md pull-right">Remove</button></td>
 								</tr>
-								
-																<tr>
+
+								<tr>
 									<td><p>Gym</p></td>
-									<td><button type="button"
-											class="btn btn-md pull-right">Remove</button></td>
+									<td><button type="button" class="btn btn-md pull-right">Remove</button></td>
 								</tr>
-								
-																<tr>
+
+								<tr>
 									<td><p>Big Basket</p></td>
-									<td><button type="button"
-											class="btn btn-md pull-right">Remove</button></td>
+									<td><button type="button" class="btn btn-md pull-right">Remove</button></td>
 								</tr>
-								
-																<tr>
+
+								<tr>
 									<td><p>Flipkart</p></td>
-									<td><button type="button" style="color:blue;"
+									<td><button type="button" style="color: blue;"
 											class="btn btn-md pull-right">Remove</button></td>
 								</tr>
 							</table>
@@ -349,6 +371,17 @@
 		<!-- row -->
 	</div>
 	<!-- container -->
+
+
+	<div class="container">
+		<div class="jumbotron-jumbotron-footer">
+			<footer class="mainFooter">
+				<p>
+					Copyright &copy; 2013 <a href="http://1stwebdesigner.com">1stwebdesigner</a>
+				</p>
+			</footer>
+		</div>
+	</div>
 
 
 
