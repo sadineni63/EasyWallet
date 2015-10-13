@@ -27,7 +27,8 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li><a style="color: blue; font-size: 120%" href="profile.html">Profile</a></li>
+					<li><a style="color: blue; font-size: 120%"
+						href="profile.html">Profile</a></li>
 					<li class="active"><a style="color: blue; font-size: 120%"
 						href="#">Activities</a></li>
 					<li><a style="color: blue; font-size: 120%" href="#">Transactions</a></li>
@@ -59,14 +60,47 @@
 				</div>
 			</div>
 
-			<div class="col-md-6">
+			<div class="col-sm-6">
 				<div class="container-container-body">
 					<h3>Add Money:</h3>
-					<p>How much money you want to add to wallet</p>
-					<div class="col-xs-4">
-						<input class="form-control" id="ex1" type="text"> <input
-							type="submit" class="btn btn-info" value="Submit">
+					<p>Amount:</p>
+
+					<input class="form-control"
+						style="width: 165px; margin-left: 160px; margin-top: -40px;"
+						id="ex1" type="text">
+					<p></p>
+					<p>Select a card:</p>
+					<div class="merchants">
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle"
+								data-toggle="dropdown">
+								Select card <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu scrollable-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+							</ul>
+						</div>
+
+
 					</div>
+
+					<input type="submit" style="margin-left: 110px;"
+						class="btn btn-info" value="Submit">
+
+
 				</div>
 			</div>
 		</div>
@@ -77,7 +111,7 @@
 			<div class="col-sm-6">
 				<div class="container-container-body3">
 					<h3>Send Money:</h3>
-					<p>Give your amount:</p>
+					<p>Amount:</p>
 
 					<input class="form-control"
 						style="width: 165px; margin-left: 160px; margin-top: -40px;"
@@ -85,28 +119,31 @@
 					<p></p>
 					<p>Select a merchant:</p>
 					<div class="merchants">
-            <div class="btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Merchants list <span class="caret"></span></button>
-                <ul class="dropdown-menu scrollable-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                </ul>
-            </div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle"
+								data-toggle="dropdown">
+								Merchants list <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu scrollable-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+							</ul>
+						</div>
 
-					
-	</div>
+
+					</div>
 
 					<input type="submit" style="margin-left: 110px;"
 						class="btn btn-info" value="Submit">
@@ -118,13 +155,46 @@
 
 
 			<div class="col-sm-6">
-				<div class="container-container-receiveMoney">
+				<div class="container-container-body3">
 					<h3>Receive Money:</h3>
-					<p>How much amount you receive</p>
-					<div class="col-xs-4">
-						<input class="form-control" id="ex1" type="text"> <input
-							type="submit" class="btn btn-info" value="Submit">
+					<p>Amount:</p>
+
+					<input class="form-control"
+						style="width: 165px; margin-left: 160px; margin-top: -40px;"
+						id="ex1" type="text">
+					<p></p>
+					<p>Select a merchant:</p>
+					<div class="merchants">
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle"
+								data-toggle="dropdown">
+								Merchants list <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu scrollable-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+							</ul>
+						</div>
+
+
 					</div>
+
+					<input type="submit" style="margin-left: 110px;"
+						class="btn btn-info" value="Submit">
+
+
 				</div>
 			</div>
 		</div>
