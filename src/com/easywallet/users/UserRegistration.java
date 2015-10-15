@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import com.easywallet.db.ConnectMySql;
+import com.easywallet.security.BCrypt;
 
 public class UserRegistration {
 	private User user;
@@ -32,7 +33,8 @@ public class UserRegistration {
 		transactionStatement.setString(3, user.getEmail());
 		transactionStatement.setLong(4, user.getPhone());
 		transactionStatement.setString(5, user.getAddress()	);
-		transactionStatement.setString(6, user.getPassword());
+		String password=BCrypt.hashpw(user.getPassword(), BCrypt.gensalt(12));
+		transactionStatement.setString(6, password);
 		if(transactionStatement.executeUpdate()==1)
 		{
 			connection.close();

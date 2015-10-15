@@ -12,20 +12,12 @@
 <body>
 
 	<%
-		String email = request.getParameter("email");
-	    String pwd = request.getParameter("pwd1");
+		//String email = request.getParameter("email");	
+		//String uid= new User().getUserId(email);
+	    session.removeAttribute("UID");
+		response.sendRedirect("Login.jsp");
+	
 		
-		if (new LoginService().validateLogin(email,pwd)) {
-			//User user = new User(name, pwd, email, phone, addrs);
-			//new UserRegistration(user).registerUser();
-	
-	     String uid= new User().getUserId(email);
-	     session.setAttribute("UID",uid );
-		response.sendRedirect("introductionPage.jsp");
-	
-		} else {
-			response.sendRedirect("Login1.jsp");
-		}
 	%>
 
 </body>

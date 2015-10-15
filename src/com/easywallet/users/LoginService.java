@@ -6,6 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import com.easywallet.db.ConnectMySql;
+import com.easywallet.security.BCrypt;
 
 public class LoginService {
 	
@@ -23,7 +24,7 @@ public class LoginService {
 					.executeQuery("select * from user where email='"
 							+ email + "'");
 			if (rs.next()) {
-				if(rs.getString("password").equals(password)) {
+				if(BCrypt.checkpw(password,rs.getString("password"))) {
 					return true;
 				}
 					
