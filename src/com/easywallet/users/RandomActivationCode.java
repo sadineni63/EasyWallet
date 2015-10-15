@@ -14,6 +14,7 @@ public class RandomActivationCode {
 		code += temp.substring(14, 15);
 		code += temp.substring(19, 20);
 		code += temp.substring(24, 25);
+		System.out.println(code.toUpperCase());
 		return code.toUpperCase();
 
 	}

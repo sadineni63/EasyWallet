@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +14,13 @@
 body {background-color:deepskyblue}
 h1   {color:white}
 </style>
+<body>
+<%Object uid=session.getAttribute("UID");
+if(uid==null)
+{
+	response.sendRedirect("Login.jsp");
+}
+%>
 <li><a style="color: blue; font-size: 18px;margin-top=10%; padding-left:1200px;" href="Login.html"><span
 							class="glyphicon glyphicon-log-out"></span> Logout</a></li>
  
@@ -56,3 +65,4 @@ h1   {color:white}
 	</table>
 </div>
 </body>
+</html>
