@@ -208,7 +208,7 @@
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
 									<h4 style="color: red;">
-										<span class="glyphicon glyphicon-lock"></span> SignUp
+										<span class="glyphicon glyphicon-lock"></span> Register
 									</h4>
 								</div>
 								<div class="modal-body">
@@ -217,40 +217,40 @@
 										onsubmit="return checkForm(this)">
 										<div class="form-group">
 											<label for="name"><span
-												class="glyphicon glyphicon-user"></span> Full Name:</label> <input
+												class="glyphicon glyphicon-user"></span> User Name:</label> <input
 												type="text" class="form-control" name="name" id="name"
-												placeholder="Enter Full name" required>
+												placeholder="Enter your name (includes alphabets, underscore)" required>
 										</div>
 
 										<div class="form-group">
 											<label for="email"><span
 												class="glyphicon glyphicon-envelope"></span> Email:</label> <input
 												type="email" class="form-control" name="email" id="email"
-												placeholder="Enter email" required>
+												placeholder="Enter email (format is info@domain.)" required>
 										</div>
 										<div class="form-group">
 											<label for="mobile"><span
 												class="glyphicon glyphicon-phone"></span> Mobile:</label> <input
-												type="number" class="form-control" name="mobile" id="mobile"
+												type="text" class="form-control" name="mobile" id="mobile"
 												pattern="[789][0-9]{9}" placeholder="Enter mobile number"
 												required>
 										</div>
 										<div class="form-group">
 											<label for="psw"><span
-												class="glyphicon glyphicon-eye-open"></span>Password:</label> <input
+												class="glyphicon glyphicon-eye-open"></span> Password:</label> <input
 												type="password" class="form-control" name="pwd1" id="pwd1"
-												placeholder="Enter password(contains atleast one 0-9/a-z/A-Z)"
+												placeholder="Contains at least six characters, including uppercase, lowercase letters and numbers."
 												required>
 										</div>
 										<div class="form-group">
 											<label for="rpsw"><span
-												class="glyphicon glyphicon-eye-open"></span>Retype Password:</label>
+												class="glyphicon glyphicon-eye-open"></span> Retype Password:</label>
 											<input type="password" class="form-control" name="pwd2"
 												id="pwd2" placeholder="Re-enter password" required>
 										</div>
 										<div class="form-group">
 											<label for="address"><span
-												class="glyphicon glyphicon-home"></span>Address:</label>
+												class="glyphicon glyphicon-home"></span> Address:</label>
 											<textarea rows="3" class="form-control" name="address"
 												id="address" placeholder="Input your address" required></textarea>
 										</div>
@@ -258,7 +258,7 @@
 
 											<button type="submit"
 												class="btn btn-default btn-success btn-block">
-												<span class="glyphicon glyphicon-off"></span> SignUp
+												<span class="glyphicon glyphicon-off"></span> Submit
 											</button>
 										</div>
 

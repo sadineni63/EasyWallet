@@ -20,9 +20,7 @@
 		if (!new UserRegistration().isEmailExisted(email)) {
 			User user = new User(name, pwd, email, phone, addrs);
 			new UserRegistration(user).registerUser();
-	
-	
-	response.sendRedirect("Login.jsp");
+			response.sendRedirect("introductionPage.jsp");
 	
 		} else {
 			response.sendRedirect("Registration1.html");

@@ -16,7 +16,7 @@ body {
 .container-container-body {
 	background-color: white;
 	background: url('../images/bg.png');
-	height: 220px;
+	height: 200px;
 	border-radius: 5px;
 	margin-top: 100px;
 }
@@ -29,6 +29,28 @@ body {
 }
 
 .container-container-body p {
+	font-family: Arial;
+	font-size: 17px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.container-container-add {
+	background-color: white;
+	background: url('../images/bg.png');
+	height: 260px;
+	border-radius: 5px;
+	margin-top: 60px;
+}
+
+.container-container-add h3 {
+	color: deepskyblue;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-decoration: underline;
+}
+
+.container-container-add p {
 	font-family: Arial;
 	font-size: 17px;
 	padding-left: 10px;
