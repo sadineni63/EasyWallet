@@ -1,0 +1,158 @@
+body {
+	background: url('../images/bg2.jpg') ;
+	background-size:200%;
+}
+
+.jumbotron {
+	position: relative;
+	background-color: deepskyblue;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	overflow: hidden;
+	margin-top: 70px;
+}
+
+.container-container-body {
+	background-color: white;
+	background: url('../images/bg.png');
+	height: 200px;
+	border-radius: 5px;
+	margin-top: 100px;
+}
+
+.container-container-body h3 {
+	color: deepskyblue;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-decoration: underline;
+}
+
+.container-container-body p {
+	font-family: Arial;
+	font-size: 17px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.container-container-add {
+	background-color: white;
+	background: url('../images/bg.png');
+	height: 260px;
+	border-radius: 5px;
+	margin-top: 60px;
+}
+
+.container-container-add h3 {
+	color: deepskyblue;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-decoration: underline;
+}
+
+.container-container-add p {
+	font-family: Arial;
+	font-size: 17px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.container-container-body1 {
+	background-color: white;
+	background: url('../images/bg.png');
+	height: auto;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.container-container-body1 h3 {
+	color: deepskyblue;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-decoration: underline;
+}
+
+.container-container-body1 p {
+	font-family: Arial;
+	font-size: 17px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.container-container-body2 {
+	background-color: white;
+	background: url('../images/bg.png');
+	height: 200px;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.container-container-body2 h3, .container-container-body3 h3,
+	.container-container-receiveMoney h3 {
+	color: deepskyblue;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-decoration: underline;
+}
+
+.container-container-body2 p, .container-container-body3 p,
+	.container-container-receiveMoney p {
+	font-family: Arial;
+	font-size: 17px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.container-container-body3 {
+	background-color: white;
+	background: url('../images/bg.png');
+	height: 260px;
+	padding-bottom: 20px;
+	border-radius: 5px;	
+	margin-top:50px;
+}
+
+.container-container-add {
+	background-color: white;
+	background: url('../images/bg.png');
+	height: 260px;
+	border-radius: 5px;
+	margin-top: 60px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.merchants{
+	margin-left:180px;	
+	margin-top:-58px;
+}
+
+
+.jumbotron-jumbotron-footer {
+	position: relative;
+	background-color: silver;
+	border-radius: 5px;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	overflow: hidden;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+
+.jumbotron-jumbotron-footer p {
+	padding-left: 30%;
+	padding-top: 30px;
+}
+
+.jumbotron td {
+	width: 220px;
+}
+
+.btn {
+	margin-top: 20px;
+}

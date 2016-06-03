@@ -1,0 +1,222 @@
+
+
+body {
+	background: url('../images/bg2.jpg') no-repeat;
+	background-size:200%;
+	
+}
+.jumbotron{
+    position: relative;
+    background-color:deepskyblue;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	margin-top:6%;
+}
+
+.jumbotron td{
+	padding-left:5%;
+}
+.comment,.heading{
+	width:150%;
+}
+
+.heading-name{
+	padding-left:10%;
+}
+
+
+
+.container-container-walletBalance{	
+	background-image: url('../images/bg.png');
+	height:auto;
+	border-radius:2%;
+	padding-top:1%;
+	padding-bottom:6%;
+}
+
+.container-container-walletBalance h3{
+	color:deepskyblue;
+	padding-left:5%;
+	padding-top:6%;
+}
+.container-container-walletBalance p{
+	font-family:Arial;
+	font-size:120%;
+	padding-left:5%;
+	padding-top:5%;
+}
+
+
+.container-container-addCard{
+	background-image: url('../images/bg.png');
+	height:auto;
+	padding-bottom:6%;
+	border-radius:2%;
+	
+}
+
+.container-container-addCard form{
+	padding-top:5%;
+	padding-left:5%;
+	padding-right:10%;
+}
+
+.container-container-addCard h3{
+	color:deepskyblue;
+	padding-left:5%;
+	padding-top:6%;
+}
+.container-container-addCard p{
+	font-family:Arial;
+	font-size:120%;
+	padding-left:5%;
+	padding-top:5%;
+}
+
+
+
+.container-container-info h3,.container-container-address h3,.container-container-password h3,.container-container-merchants h3,.container-container-edit-info h3{
+	color:deepskyblue;
+	padding-left:4%;
+	padding-top:3%;
+
+}
+.container-container-info p,.container-container-address p,.container-container-password p,.container-container-merchants p{
+
+	font-family:Arial;
+	font-size:120%;
+	padding-left:5%;
+	padding-top:5%;
+	
+}
+
+.container-container-info,.container-container-address,.container-container-password ,.container-container-merchants {
+	background-image: url('../images/bg.png');
+	height:auto;
+	padding-bottom:6%;
+	border-radius:2%;
+	margin-top:1%;
+	
+}
+.container-container-info a,.container-container-address a{
+	padding-right:2%;
+	padding-bottom:6%;
+	
+}
+
+.container-container-info td{
+	padding-top:0%;
+	padding-left:5%;
+	width:10%;
+	
+}
+.container-container-info tr{
+	padding-top:0%;
+	padding-left:5%;
+	width:10%;
+	
+}
+
+.container-container-edit-info{	
+	background-image: url('../images/bg.png');
+	height:auto;
+	border-radius:1%;
+	margin-top:2%;
+	padding-bottom:5%;
+	
+}
+.container-container-edit-info form{
+	padding-top:2%;
+	padding-left:3%;
+	padding-right:50%;
+
+}
+
+.container-container-edit-address a,.container-container-edit-info a{
+	padding-right:5%;
+	padding-top:5%;
+	
+}
+
+.container-container-address form{
+	padding-top:2%;
+	padding-left:5%;
+	padding-right:20%;
+
+}
+
+.container-container-edit-address{
+	background-color: white;	
+	background-image: url('../images/bg.png');
+	height:auto;
+	border-radius:1%;
+	margin-top:2%;
+	padding-bottom:5%;
+}
+
+.container-container-edit-address form{
+	padding-top:2%;
+	padding-left:5%;
+	padding-right:20%;
+
+}
+
+.container-container-edit-address h3{
+	color:deepskyblue;
+	padding-left:1%;
+	padding-top:1%;
+}
+
+
+
+.container-container-edit-password form{
+	padding-top:2%;
+	padding-left:3%;
+	padding-right:50%;
+
+}
+
+.container-container-edit-password h3{
+	color:deepskyblue;
+	padding-left:1%;
+	padding-top:1%;
+}
+
+
+.container-container-merchants button{
+	color:blue;
+	float:right;
+}
+
+.container-container-merchants td{
+	border-bottom:5px solid white;
+	border-bottom-color:white;
+}
+
+
+
+.jumbotron-jumbotron-footer{
+    position: relative;
+    background-color:silver;
+	border-radius:5px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	margin-top:3%;
+	padding-bottom:1%;
+}
+
+.jumbotron-jumbotron-footer p{
+	padding-left:10%;
+	padding-top:5%;
+}
+
+.container {
+   max-width: 100%;
+   /* This will remove the outer padding, and push content edge to edge */
+   padding-right: 0;
+   padding-left: 0;
+ }

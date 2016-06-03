@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Activity Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="CSS/activity.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" style="color: midnightblue; font-size: 200%"
+					href="introductionPage.html"><b>EasyWallet</b></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a style="color: blue; font-size: 120%"
+						href="profile.html">Profile</a></li>
+					<li class="active"><a style="color: blue; font-size: 120%"
+						href="#">Activities</a></li>
+					<li><a style="color: blue; font-size: 120%" href="#">Transactions</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a style="color: blue; font-size: 120%" href="Login.html"><span
+							class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="container-container-body">
+					<h3>Your wallet details:</h3>
+					<div class="form-inline"
+						style="padding-top: 15px; padding-left: 10px; padding-right: 10px;">
+						<label for="name">Wallet Balance:</label> <input type="text"
+							style="padding-right: 0px; padding-left: 15px;"
+							class="form-control" id="email" disabled="disabled">
+					</div>
+					<p>
+						To see your latest transactions: <a href="">click here</a>
+					</p>
+					<p>
+						To see your transactions <a href="">click here</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-sm-6">
+				<div class="container-container-body">
+					<h3>Add Money:</h3>
+					<p>Amount:</p>
+
+					<input class="form-control"
+						style="width: 165px; margin-left: 160px; margin-top: -40px;"
+						id="ex1" type="text">
+					<p></p>
+					<p>Select a card:</p>
+					<div class="merchants">
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle"
+								data-toggle="dropdown">
+								Select card <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu scrollable-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+							</ul>
+						</div>
+
+
+					</div>
+
+					<input type="submit" style="margin-left: 110px;"
+						class="btn btn-info" value="Submit">
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="container-container-body3">
+					<h3>Send Money:</h3>
+					<p>Amount:</p>
+
+					<input class="form-control"
+						style="width: 165px; margin-left: 160px; margin-top: -40px;"
+						id="ex1" type="text">
+					<p></p>
+					<p>Select a merchant:</p>
+					<div class="merchants">
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle"
+								data-toggle="dropdown">
+								Merchants list <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu scrollable-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+							</ul>
+						</div>
+
+
+					</div>
+
+					<input type="submit" style="margin-left: 110px;"
+						class="btn btn-info" value="Submit">
+
+
+				</div>
+			</div>
+
+
+
+			<div class="col-sm-6">
+				<div class="container-container-body3">
+					<h3>Receive Money:</h3>
+					<p>Amount:</p>
+
+					<input class="form-control"
+						style="width: 165px; margin-left: 160px; margin-top: -40px;"
+						id="ex1" type="text">
+					<p></p>
+					<p>Select a merchant:</p>
+					<div class="merchants">
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle"
+								data-toggle="dropdown">
+								Merchants list <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu scrollable-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+							</ul>
+						</div>
+
+
+					</div>
+
+					<input type="submit" style="margin-left: 110px;"
+						class="btn btn-info" value="Submit">
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="container">
+		<div class="jumbotron-jumbotron-footer">
+			<footer class="mainFooter">
+				<p>
+					Copyright &copy; 2013 <a href="http://1stwebdesigner.com">1stwebdesigner</a>
+				</p>
+			</footer>
+		</div>
+	</div>
+
+
+</body>
+</html>
