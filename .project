@@ -6,14 +6,11 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
-<<<<<<< HEAD
-=======
 			<name>org.eclipse.xtext.ui.shared.xtextBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
->>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 			<name>org.eclipse.wst.jsdt.core.javascriptValidator</name>
 			<arguments>
 			</arguments>
@@ -40,9 +37,6 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
-<<<<<<< HEAD
-=======
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
->>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 	</natures>
 </projectDescription>

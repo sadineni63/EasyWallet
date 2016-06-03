@@ -75,14 +75,13 @@ public class AddMoneyTransaction extends Transaction {
 		return stID;
 	}
 	
-<<<<<<< HEAD
-	public ResultSet getAddTransactions(String uid) throws SQLException {
-		Statement statement;
-		Connection connection=new ConnectMySql().getConnection("easywallet");
-		statement=connection.createStatement();
-		ResultSet rs=statement.executeQuery("select * from add_transactions where email='"+uid+"'");
-		return rs;
-	}
+//	public ResultSet getAddTransactions(String uid) throws SQLException {
+//		Statement statement;
+//		Connection connection=new ConnectMySql().getConnection("easywallet");
+//		statement=connection.createStatement();
+//		ResultSet rs=statement.executeQuery("select * from add_transactions where email='"+uid+"'");
+//		return rs;
+//	}
 //	public static void main(String[] args) throws SQLException {
 //		AddMoneyTransaction t=new AddMoneyTransaction();
 //		ResultSet r=t.getAddTransactions("lakshman.sadineni@gmail.com");
@@ -92,7 +91,6 @@ public class AddMoneyTransaction extends Transaction {
 //			System.out.println("Closed");
 //		
 //	}
-=======
 	public ResultSet getAddTransactions(String email) throws SQLException {
 		Statement statement;
 		Connection connection=new ConnectMySql().getConnection("easywallet");
@@ -109,7 +107,6 @@ public class AddMoneyTransaction extends Transaction {
 			System.out.println("Closed");
 		
 	}
->>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 	
 
 }

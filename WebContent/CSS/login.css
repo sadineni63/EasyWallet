@@ -1,24 +1,10 @@
-<<<<<<< HEAD
 body {font-family: 'Open Sans', sans-serif;}
 .wrapper{width: 100%;margin:0 auto;max-width: 1024px;}
 .banner{width: 100%;margin: 0 auto;background: url('../images/background.jpg') no-repeat;height: 650px; }
 .header{width:100%; margin:0 auto;max-width: 1000px;  overflow:hidden;padding-bottom: 15px;}
-=======
-body {width:100%; font-family: 'Open Sans', sans-serif;}
-.wrapper{width: 100%;margin:0 auto;max-width: 1024px;}
-.banner{width: 100%;margin: 0 auto;background: url('../images/background.jpg') no-repeat;height: 640px; }
-.header{width:100%; margin:0 auto;  overflow:hidden;padding-bottom: 15px;}
->>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 .headerLeft{width:50%;max-width:100px;padding-top:12px ;padding-right:-20px;float:left;}
 .headerRight{width:40%;max-width:225px;  float:right;text-align:left; padding-top:35px ;padding-right: 10px;}
 .headerRight img{width:80%;}
 .headerLeft img{width:85%;}
-<<<<<<< HEAD
 .bimg{float: left;padding-top: 280px;}
 .xx{float:right; margin-right:20px;width:310px; margin-top:180px;}
-=======
-.xx{float:right; margin-right:20px;width:310px; margin-top:180px;}
-.container{
-	width: 100%;
-}
->>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea

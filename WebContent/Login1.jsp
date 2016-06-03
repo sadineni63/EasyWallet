@@ -65,8 +65,8 @@ if(uid!=null)
 	<link rel="stylesheet" type="text/css" href="CSS/login.css">
 </head>
 <body>
-<%Object uid=session.getAttribute("UID");
-if(uid!=null)
+<%Object uid1=session.getAttribute("UID");
+if(uid1!=null)
 {
 	response.sendRedirect("introductionPage.jsp");
 }
