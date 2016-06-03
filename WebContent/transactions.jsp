@@ -22,9 +22,9 @@
 
 <script type="text/javascript" src="js/datatables.min.js"></script>
 <script type="text/javascript" charset="utf-8">
-	$(document).ready(function() {
-		$('#example').DataTable();
-	});
+	//$(document).ready(function() {
+		//$('#example').DataTable();
+	//});
 </script>
 <style type="text/css"></style>
 <script type="text/javascript"
@@ -79,7 +79,7 @@ System.out.println("email = " + email);
 					href="transactions.jsp">Transactions</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a style="color: blue; font-size: 18px" href="signOut.jsp"><span
+				<li><a style="color: blue; font-size: 18px" href="#"><span
 						class="glyphicon glyphicon-log-out"></span> Logout</a></li>
 			</ul>
 		</div>
@@ -111,8 +111,106 @@ System.out.println("email = " + email);
 					</div>
 					<div class="panel-body">
 						<div class="tab-content">
+							<div class="tab-pane fade in active" id="tab1">
+								<div id="example_wrapper"
+									class="dataTables_wrapper form-inline dt-bootstrap no-footer">
+									<div class="row">
+										<div class="col-sm-12">
+											<table id="example"
+												class="table table-striped table-bordered dataTable no-footer"
+												cellspacing="0" width="100%" role="grid"
+												aria-describedby="example_info" style="width: 100%;">
+												<thead>
+													<tr role="row">
+														<th class="sorting_asc" tabindex="0"
+															aria-controls="example" rowspan="1" colspan="1"
+															aria-label="Name: activate to sort column descending"
+															style="width: 100px;" aria-sort="ascending">Transaction
+															Id</th>
+														<th class="sorting" tabindex="0" aria-controls="example"
+															rowspan="1" colspan="1"
+															aria-label="Position: activate to sort column ascending"
+															style="width: 396px;">Transaction Type</th>
+														<th class="sorting" tabindex="0" aria-controls="example"
+															rowspan="1" colspan="1"
+															aria-label="Office: activate to sort column ascending"
+															style="width: 195px;">Date</th>
+														<th class="sorting" tabindex="0" aria-controls="example"
+															rowspan="1" colspan="1"
+															aria-label="Salary: activate to sort column ascending"
+															style="width: 154px;">Amount</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr role="row" class="odd">
+													<% %>
+														<td class="sorting_1">1</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+													<tr role="row" class="even">
+														<td class="sorting_1">2</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+													<tr role="row" class="odd">
+														<td class="sorting_1">3</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+													<tr role="row" class="even">
+														<td class="sorting_1">4</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+													<tr role="row" class="odd">
+														<td class="sorting_1">5</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+													<tr role="row" class="even">
+														<td class="sorting_1">6</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+													<tr role="row" class="odd">
+														<td class="sorting_1">7</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+													<tr role="row" class="even">
+														<td class="sorting_1">8</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+													<tr role="row" class="odd">
+														<td class="sorting_1">9</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+													<tr role="row" class="even">
+														<td class="sorting_1">10</td>
+														<td>Add</td>
+														<td>15-08-2015</td>
+														<td>$162,700</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
 
-							<div class="tab-pane fade in active" id="tab2">
+							<div class="tab-pane fade" id="tab2">
 								<div id="example_wrapper"
 									class="dataTables_wrapper form-inline dt-bootstrap no-footer">
 
@@ -165,7 +263,7 @@ System.out.println("email = " + email);
 																								 %>
 													<tr role="row" class="odd">
 														<td class="sorting_1"><%=addTransactions.getString("tid")%></td>
-														<td><%=addTransactions.getString("email")%></td>
+														<td><%=addTransactions.getString("email")%>%></td>
 														<td><%=addTransactions.getDate("date")%></td>
 														<td><%=addTransactions.getInt("amount")%></td>
 														<td><%=addTransactions.getString("status")%></td>
