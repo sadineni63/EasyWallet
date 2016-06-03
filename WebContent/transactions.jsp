@@ -24,6 +24,8 @@
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function() {
 		$('#example').DataTable();
+		$('#example1').DataTable();
+		$('#example2').DataTable();
 	});
 </script>
 <style type="text/css"></style>
@@ -172,7 +174,7 @@ System.out.println("email = " + email);
 
 									<div class="row">
 										<div class="col-sm-12">
-											<table id="example"
+											<table id="example1"
 												class="table table-striped table-bordered dataTable no-footer"
 												cellspacing="0" width="100%" role="grid"
 												aria-describedby="example_info" style="width: 100%;">
@@ -224,7 +226,7 @@ System.out.println("email = " + email);
 
 									<div class="row">
 										<div class="col-sm-12">
-											<table id="example"
+											<table id="example2"
 												class="table table-striped table-bordered dataTable no-footer"
 												cellspacing="0" width="100%" role="grid"
 												aria-describedby="example_info" style="width: 100%;">
