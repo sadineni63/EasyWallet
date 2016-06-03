@@ -130,6 +130,12 @@ public class ActivityService {
 			amount=prevAmount-givenAmount+discount+"";
 			int result1 = statement.executeUpdate("update accounts set balance='"+amount+"' where email='"+c_email+"'");
 			amount=givenAmount+"";
+			ResultSet merchantBalanceResultSet = statement.executeQuery("select balance from merchants where uid='"+uid+"' and merchant='"+merchant+"'");
+			merchantBalanceResultSet.next();
+			int merchantBalance = merchantBalanceResultSet.getInt("balance")+Integer.parseInt(amount);
+			System.out.println("merchant balance = " + merchantBalance);
+			int updateMerchantBalance = statement.executeUpdate("update merchants set balance='"+merchantBalance+"' where uid='"+uid+"' and merchant='"+merchant+"'");
+			System.out.println("updateMerchantBalance = " + updateMerchantBalance);
 			
 			System.out.println("discount="+discount);
 			int result =0;
