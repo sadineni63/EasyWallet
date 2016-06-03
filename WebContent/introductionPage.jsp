@@ -21,7 +21,7 @@ if(uid==null)
 	response.sendRedirect("Login.jsp");
 }
 %>
-<li><a style="color: blue; font-size: 18px;margin-top=10%; padding-left:1200px;" href="signOut.jsp"><span
+<li><a style="color: blue; font-size: 18px;margin-top=10%; margin-left:90%;" href="signOut.jsp"><span
 							class="glyphicon glyphicon-log-out"></span> Logout</a></li>
  
 <h1 style = "font-size: 400%; margin-left:8%"> Welcome User! </h1>

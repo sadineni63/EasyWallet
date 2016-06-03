@@ -4,10 +4,7 @@ $(function(){
   $('#editInfo').hide();
 });
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 function form(a)
 {
     if(a!=1)
@@ -26,7 +23,6 @@ function form1(a)
 
 
 
-<<<<<<< HEAD
 function fncSubmit()
 {
 
@@ -63,8 +59,6 @@ document.ChangePasswordForm.submit();
 
 
 
-=======
->>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 
 
 

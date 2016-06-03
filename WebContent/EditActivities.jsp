@@ -26,7 +26,7 @@ RandomTransactionID random = new RandomTransactionID();
 	System.out.println("email in editActivities = " + email);
 // 	String b_email="pavani@gmail.com";
 // 	String c_email="indu@gmail.com";
-	String status = "active";
+	String status = "success";
 	//String strt_id = "UID1234";
 	String randomID = random.generateTransactionID();
 	ResultSet set=null;
@@ -39,7 +39,7 @@ RandomTransactionID random = new RandomTransactionID();
 		activity.addMoney(email,status,uid.toString(),randomID,amountGiven,cardName);
 		response.sendRedirect("activity.jsp?addStatus=success");
 	}
-	
+	////
 	if(button.equals("sendmoney")){
 		String merchant= request.getParameter("merchants");
 		String amount = request.getParameter("amount");
