@@ -3,7 +3,10 @@
 body {
 	background: url('../images/bg2.jpg') no-repeat;
 	background-size:200%;
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 }
 .jumbotron{
     position: relative;
@@ -16,6 +19,7 @@ body {
 }
 
 .jumbotron td{
+<<<<<<< HEAD
 	padding-left:5%;
 }
 .comment,.heading{
@@ -28,11 +32,21 @@ body {
 
 
 
+=======
+	width:50%;
+}
+
+
+>>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 .container-container-walletBalance{	
 	background-image: url('../images/bg.png');
 	height:auto;
 	border-radius:2%;
+<<<<<<< HEAD
 	padding-top:1%;
+=======
+	margin-top:-7%;
+>>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 	padding-bottom:6%;
 }
 
@@ -97,7 +111,11 @@ body {
 	height:auto;
 	padding-bottom:6%;
 	border-radius:2%;
+<<<<<<< HEAD
 	margin-top:1%;
+=======
+	margin-top:-1%;
+>>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 	
 }
 .container-container-info a,.container-container-address a{
@@ -108,6 +126,10 @@ body {
 
 .container-container-info td{
 	padding-top:0%;
+<<<<<<< HEAD
+=======
+	padding-bottom:-5%;
+>>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
 	padding-left:5%;
 	width:10%;
 	
@@ -206,6 +228,7 @@ body {
     background-size: cover;
     overflow: hidden;
 	margin-top:3%;
+<<<<<<< HEAD
 	padding-bottom:1%;
 }
 
@@ -220,3 +243,12 @@ body {
    padding-right: 0;
    padding-left: 0;
  }
+=======
+	padding-bottom:2%;
+}
+
+.jumbotron-jumbotron-footer p{
+	padding-left:20%;
+	padding-top:5%;
+}
+>>>>>>> 3352c08634c1cd1c5c56826e31c0a28b30dcc1ea
